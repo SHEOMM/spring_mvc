@@ -12,7 +12,6 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/mapping/users")
 public class MappingClassController {
-
     @GetMapping
     public String users(){
         return "get users";
